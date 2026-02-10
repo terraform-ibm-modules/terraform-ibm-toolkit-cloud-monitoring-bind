@@ -1,5 +1,9 @@
 # IBM Cloud Monitoring bind module
 
+:warning: This module is no longer maintained. Related supported modules:
+- [terraform-ibm-monitoring-agent](https://github.com/terraform-ibm-modules/terraform-ibm-monitoring-agent)
+- [terraform-ibm-cloud-monitoring](https://github.com/terraform-ibm-modules/terraform-ibm-cloud-monitoring)
+
 Module to connect an existing IBM Cloud Monitoring instance to a cluster. The cluster is attached via the IBM Cloud cli and as a result the Connect/Disconnect button state will be updated to reflect the current status of the deployed agents.
 
 ## Software dependencies
